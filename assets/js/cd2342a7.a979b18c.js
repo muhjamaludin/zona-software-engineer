@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkzona_software_engineer=self.webpackChunkzona_software_engineer||[]).push([[335],{3810:function(e){e.exports=JSON.parse('{"allTagsPath":"/zona-software-engineer/blog/tags","slug":"/zona-software-engineer/blog/tags/hello","name":"hello","count":2,"permalink":"/zona-software-engineer/blog/tags/hello"}')}}]);

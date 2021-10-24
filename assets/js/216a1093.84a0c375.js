@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkzona_software_engineer=self.webpackChunkzona_software_engineer||[]).push([[419],{265:function(e){e.exports=JSON.parse('{"allTagsPath":"/zona-software-engineer/blog/tags","slug":"/zona-software-engineer/blog/tags/docusaurus","name":"docusaurus","count":4,"permalink":"/zona-software-engineer/blog/tags/docusaurus"}')}}]);
