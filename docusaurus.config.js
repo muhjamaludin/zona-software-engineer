@@ -15,6 +15,7 @@ const config = {
   favicon: 'img/favicon.ico',
   organizationName: 'muhjamaludin', // Usually your GitHub org/user name.
   projectName: 'zona-software-engineer', // Usually your repo name.
+  trailingSlash: true,
 
   presets: [
     [
@@ -55,7 +56,7 @@ const config = {
             position: 'left',
             label: 'Learning Path',
           },
-          {to: '/language', label: 'Language', position: 'left'},
+          {to: '/blog', label: 'Language', position: 'left'},
           {
             href: 'https://github.com/muhjamaludin/zona-software-engineer',
             label: 'GitHub',
