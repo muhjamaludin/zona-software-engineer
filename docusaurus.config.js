@@ -1,40 +1,41 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require("prism-react-renderer/themes/github");
+const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Zona Belajar Software Engineer',
-  tagline: 'Rangkuman Ilmu Seputar Rekayasa Perangkat Lunak',
-  url: 'https://muhjamaludin.github.io',
-  baseUrl: '/zona-software-engineer/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'muhjamaludin', // Usually your GitHub org/user name.
-  projectName: 'zona-software-engineer', // Usually your repo name.
+  title: "Zona Belajar Software Engineer",
+  tagline: "Rangkuman Ilmu Seputar Rekayasa Perangkat Lunak",
+  url: "https://muhjamaludin.github.io",
+  baseUrl: "/zona-software-engineer/",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "img/favicon.ico",
+  organizationName: "muhjamaludin", // Usually your GitHub org/user name.
+  projectName: "zona-software-engineer", // Usually your repo name.
   trailingSlash: true,
 
   presets: [
     [
-      '@docusaurus/preset-classic',
+      "@docusaurus/preset-classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl: 'https://github.com/muhjamaludin/zona-software-engineer/edit/main/website/',
+          editUrl:
+            "https://github.com/muhjamaludin/zona-software-engineer/tree/master",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://muhjamaludin/zona-software-engineer/edit/main/website/blog/',
+            "https://github.com/muhjamaludin/zona-software-engineer/tree/master",
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       }),
     ],
@@ -44,65 +45,67 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Zola Sofwer',
+        title: "Zola Sofwer",
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: "My Site Logo",
+          src: "img/logo.svg",
         },
         items: [
           {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Learning Path',
+            type: "doc",
+            docId: "intro",
+            position: "left",
+            label: "Alur Belajar",
           },
-          {to: '/blog', label: 'Language', position: 'left'},
+          { to: "/blog", position: "left", label: "Bahasa",  },
+          { to: "/konsep", position: "left", label: "Konsep" },
+          { to: "/blogs", position: "left", label: "Blog" },
           {
-            href: 'https://github.com/muhjamaludin/zona-software-engineer',
-            label: 'GitHub',
-            position: 'right',
+            href: "https://github.com/muhjamaludin/zona-software-engineer",
+            label: "GitHub",
+            position: "right",
           },
         ],
       },
       footer: {
-        style: 'dark',
+        style: "dark",
         links: [
           {
-            title: 'Docs',
+            title: "Docs",
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: "Tutorial",
+                to: "/docs/intro",
               },
             ],
           },
           {
-            title: 'Community',
+            title: "Community",
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: "Stack Overflow",
+                href: "https://stackoverflow.com/questions/tagged/docusaurus",
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: "Discord",
+                href: "https://discordapp.com/invite/docusaurus",
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: "Twitter",
+                href: "https://twitter.com/docusaurus",
               },
             ],
           },
           {
-            title: 'More',
+            title: "More",
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: "Blog",
+                to: "/blog",
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: "GitHub",
+                href: "https://github.com/facebook/docusaurus",
               },
             ],
           },
